@@ -1,32 +1,21 @@
 import './style/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useNavigate } from 'react-router-dom';
-import { FaTools } from "react-icons/fa";
-import { GiLightningArc } from "react-icons/gi";
-import { FaPeopleGroup } from "react-icons/fa6";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import SoftSkills from './pages/SoftSkillsPage';
+import Electronics from './pages/ElectronicsPage';
+import Mechanical from './pages/MechanicalPage';
+import Home from './pages/HomePage';
 
 function App() {
-  const nav = useNavigate(); 
-
-  function navclick(val){
-    nav(val); 
-  }
-
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-      <main className='col-12 d-flex flex-row justify-content-around align-items-center'>
-        <GiLightningArc className='icons' onClick={() => navclick('/Electronics')}/>
-        <FaPeopleGroup className='icons' onClick={() => navclick('/Soft-Skills')}/>
-        <FaTools className='icons' onClick={() => navclick('/Mechanical')}/>
-      </main>
-      <footer>
-        <p className='d-flex justify-content-center'>
-          Made with ❤️ By Sam
-        </p>
-      </footer>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/soft-skills" element={<SoftSkills />} />
+        <Route path="/Electronics" element={<Electronics />} />
+        <Route path="/Mechanical" element={<Mechanical />} />
+      </Routes>
+    </Router>
   );
 }
 
