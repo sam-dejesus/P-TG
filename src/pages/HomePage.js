@@ -18,7 +18,7 @@ function Homepage() {
       </header>
       <main className='col-12 d-flex flex-row justify-content-around align-items-center'>
         <GiLightningArc className='icons' onClick={() => navclick('/Electronics')}/>
-        <FaPeopleGroup className='icons' onClick={() => navclick('/Soft-Skills')}/>
+        {/* <FaPeopleGroup className='icons' onClick={() => navclick('/Soft-Skills')}/> */}
         <FaTools className='icons' onClick={() => navclick('/Mechanical')}/>
       </main>
       <footer>

@@ -1,4 +1,5 @@
 import { mechanicalIndex } from '../components/indexList';
+import { Link } from 'react-router-dom';
 import '../style/indexPages.css'
 
 function MechanicalPage() {
@@ -10,6 +11,20 @@ function MechanicalPage() {
                 <details key={index} className='border col-12 '>
                     <summary>{item.title}</summary>
                     <p className='p-3'>{item.description}</p>
+                    <h4>Links</h4>
+                    <ul>
+                    {item.page.map((pageItem, pageIndex) => (
+                <li key={pageIndex}>
+                    <Link to="/Module" state={{
+                        title: pageItem.title,
+                        description: pageItem.description,
+                        videos: pageItem.videos
+                        }}>
+                            {pageItem.title}
+                    </Link>
+                </li>
+            ))}
+                    </ul>
 
                 </details>
             ))}
