@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom';
 import { FaTools } from "react-icons/fa";
 import { GiLightningArc } from "react-icons/gi";
-import { FaPeopleGroup } from "react-icons/fa6";
+// import { FaPeopleGroup } from "react-icons/fa6";
 
 function Homepage() {
   const nav = useNavigate(); 
@@ -14,12 +14,19 @@ function Homepage() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="col-12  d-flex justify-content-center align-items-center border">
+        <h1 className='title'>Apprentice Video Library</h1>
       </header>
       <main className='col-12 d-flex flex-row justify-content-around align-items-center'>
-        <GiLightningArc className='icons' onClick={() => navclick('/Electronics')}/>
+        <div>
+          <GiLightningArc className='icons' onClick={() => navclick('/Electronics')}/>
+          <p>Electronics</p>
+        </div>
         {/* <FaPeopleGroup className='icons' onClick={() => navclick('/Soft-Skills')}/> */}
-        <FaTools className='icons' onClick={() => navclick('/Mechanical')}/>
+        <div>
+          <FaTools className='icons' onClick={() => navclick('/Mechanical')}/>
+          <p>Mechanical</p>
+        </div>
       </main>
       <footer>
         <p className='d-flex justify-content-center'>
