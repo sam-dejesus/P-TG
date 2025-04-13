@@ -30,7 +30,7 @@ function Homepage() {
       </main>
       <footer>
         <p className='d-flex justify-content-center'>
-          Made with ❤️ By Sam
+          Made with ❤️ Version 1.0.0
         </p>
       </footer>
     </div>
