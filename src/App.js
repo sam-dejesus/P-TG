@@ -12,7 +12,7 @@ import Home from './pages/HomePage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/P-TG">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/soft-skills" element={<SoftSkills />} />

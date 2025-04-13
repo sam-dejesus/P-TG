@@ -11,7 +11,7 @@ function ModPage() {
 
     return (
         <div className="d-flex flex-column justify-content-center align-items-center">
-            <h1 className='title'>{title} Module</h1>
+            <h1 className='title'>{title} Mod</h1>
             <div className="d-flex flex-row flex-wrap col-12">
                 <p className="mt-3 p-5 fs-4">{description}</p>
                 {videos && videos.length > 0 && videos.map((video, index) => (

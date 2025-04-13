@@ -4,7 +4,7 @@ import '../style/indexPages.css'
 function ElectronicsPage() {
     return (
         <div className='col-12 d-flex flex-column justify-content-center align-items-center p-2'>
-            <h1 className='title'>electrical Index</h1>
+            <h1 className='title'>Electrical Index</h1>
             {electronicsIndex.map((item, index) => (
                 <details key={index} className='border col-12 '>
                     <summary>{item.title}</summary>
