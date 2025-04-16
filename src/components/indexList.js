@@ -140,11 +140,11 @@ const mechanicalIndex = [{
 
     },{
         title:'Pulley',
-        link:'none',
+        link:'Gears-Module',
         description:"Pulleys are simple mechanical devices used to lift or move loads by changing the direction of force and, in many cases, reducing the amount of effort needed. At its most basic, a pulley consists of a wheel with a groove around its edge, through which a rope or cable can run. When one end of the rope is pulled, the wheel rotates and the load attached to the other end is lifted. Pulleys are an essential part of many machines and systems because they allow for easier and more efficient lifting of heavy objects, and they can also be arranged in various configurations to multiply force. There are three main types of pulleys: fixed, movable, and compound pulleys. A fixed pulley is attached to a solid anchor point and only changes the direction of the force—you pull down, the load goes up—but it doesn’t reduce the amount of force required. A movable pulley is attached directly to the load, and it moves along with the object being lifted; this type reduces the amount of force needed by half but requires pulling the rope a greater distance. A compound pulley, also known as a block and tackle system, combines fixed and movable pulleys to both change the direction of the force and reduce the amount of effort significantly. The more pulleys added to the system, the less force is needed to lift the object, though more rope must be pulled. Pulleys are used in cranes, elevators, workout machines, and many other tools where lifting or pulling is required.",
-        video:[{
+        videos:[{
             title:'How Pulleys Work',
-            link:'https://www.youtube.com/watch?v=M2w3NZzPwOM&list=LL&index=1&t=2s'
+            link:'https://www.youtube.com/watch?v=M2w3NZzPwOM&list=LL&index=2&t=2s'
         }]
 
     }]
