@@ -163,6 +163,20 @@ const mechanicalIndex = [{
 
     }]
 }]
+const applicationsIndex = [{
+    title:'History',
+    description:"Roller coasters and theme parks have a rich and exciting history that dates back several centuries. The earliest inspiration for roller coasters came from 17th-century Russia, where massive wooden slides covered in ice, known as 'Russian Mountains,' thrilled riders during the winter months. By the early 19th century, the concept evolved in France with wheeled carts on tracks, leading to the creation of the first true roller coasters. In the United States, the first successful roller coaster, the Switchback Railway, opened at Coney Island in 1884, designed by LaMarcus Adna Thompson. Around the same time, the idea of amusement parks began to take shape, offering a collection of rides, games, and attractions in one location. Over the decades, technological advances in engineering and design allowed for taller, faster, and more complex rides, while parks like Disneyland, which opened in 1955, revolutionized the industry by combining immersive storytelling with thrilling attractions. Today, roller coasters and theme parks continue to captivate millions around the world, blending tradition with innovation.",
+    page:[{
+        title:'Evolution of Rollercoastes',
+        link:'/Gears-Module',
+        description:'This video provides a fascinating overview of the history and engineering behind roller coasters, tracing their evolution from early ice-covered wooden slides known as "Russian Mountains" to today’s high-tech thrill machines. It explains how early rides like the Switchback Railway led to major innovations in safety and performance, including the addition of anti-rollback systems, more advanced wheels, and better braking methods. The video also explores the transition from wooden to steel roller coasters, enabling more complex designs and inversions. With clear explanations of forces like gravity, momentum, and magnetic braking, the video shows how modern coasters combine physics and engineering to deliver both safety and excitement.',
+        videos:[{
+            title:'Evolution of Rollercoastes',
+            link:'https://www.youtube.com/watch?v=irkAtqm-eCs&list=LL&index=3'
+        },]
+
+    },]
+}]
 
 // const softskillsIndex = [{
 //     page:[{
@@ -177,4 +191,4 @@ const mechanicalIndex = [{
     
 // }]
 
-export { electronicsIndex, mechanicalIndex };
+export { electronicsIndex, mechanicalIndex, applicationsIndex };
