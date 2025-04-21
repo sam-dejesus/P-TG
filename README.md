@@ -12,7 +12,15 @@ No installation required. Simply visit the website using this [link](https://sam
 **Version 1.0.0 (Alpha)** — Released: 04/13/2025
 
 ### Changelog  
-*(Coming soon — no changelog entries yet)*
+#### [1.0.1] - 04-21-2025
+- Added new styling to the home page.
+- Added "Lazy Loading" to the videos.
+- Added an applications section to the site.
+- Added update log button
+
+#### [1.0.0] - 04-15-2025
+##### Added
+- First release!
 
 ## Roadmap  
 - Add reference formulas  
