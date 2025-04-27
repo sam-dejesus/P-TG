@@ -176,6 +176,30 @@ const applicationsIndex = [{
         },]
 
     },]
+},{
+    title:'How it works Series',
+    link:'',
+    description:'this is a video series on how a certain ride works helping in giving insight of the rides you might work on',
+    pages:[{
+        title:"Hagrid's Motorbike Adventure",
+        link:'',
+        description:'lorem',
+        videos:[{
+            title:"Hagrid's Motorbike Adventure",
+            link:'https://www.youtube.com/watch?v=kwtPfGpMmg4'
+        }]
+    },{
+        title:"Poseidon's Fury(NOW DEFUNCT)",
+        link:"",
+        description:"lorem",
+        videos:[{
+            title:"Poseidon's Fury(NOW DEFUNCT)",
+            link:"https://www.youtube.com/watch?v=0zeR5p9vkTo&list=PLEfBwVxmejqdE_qVoXm6dpW3De4WOe95H&index=9"
+        }]
+    },{
+        title:''
+    }]
+   
 }]
 
 // const softskillsIndex = [{
